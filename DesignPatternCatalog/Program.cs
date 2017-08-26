@@ -10,7 +10,6 @@ namespace DesignPatternCatalog
     {
         static void Main(string[] args)
         {
-
         }
     }
 }
