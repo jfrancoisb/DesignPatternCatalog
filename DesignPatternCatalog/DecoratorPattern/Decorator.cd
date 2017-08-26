@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="&#xD;&#xA;component.Operation();">
+    <Position X="5.979" Y="3.521" Height="0.437" Width="1.7" />
+  </Comment>
+  <Comment CommentText="base.Operation();&#xD;&#xA;AddedBehavior();">
+    <Position X="7.5" Y="5.75" Height="0.51" Width="1.7" />
+  </Comment>
+  <Class Name="DesignPatterns.DecoratorPattern.Component">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>DecoratorPattern\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.DecoratorPattern.Decorator">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="DesignPatterns.DecoratorPattern.Component" FixedFromPoint="true">
+      <Path>
+        <Point X="3.5" Y="1.603" />
+        <Point X="3.5" Y="2.125" />
+        <Point X="5.25" Y="2.125" />
+        <Point X="5.25" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="component" Type="DesignPatterns.DecoratorPattern.Component" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6" Y="2.688" />
+        <Point X="7.49" Y="2.688" />
+        <Point X="7.49" Y="1.052" />
+        <Point X="3.75" Y="1.052" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="2.391" Y="-1.513" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAQAA=</HashCode>
+      <FileName>DecoratorPattern\Decorator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="component" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.DecoratorPattern.ConcreteComponent">
+    <Position X="0.5" Y="2.5" Width="1.75" />
+    <InheritanceLine Type="DesignPatterns.DecoratorPattern.Component" FixedFromPoint="true">
+      <Path>
+        <Point X="2.625" Y="1.603" />
+        <Point X="2.625" Y="2.125" />
+        <Point X="1.375" Y="2.125" />
+        <Point X="1.375" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>DecoratorPattern\ConcreteComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.DecoratorPattern.ConcreteDecoratorA">
+    <Position X="2.5" Y="4.5" Width="1.75" />
+    <InheritanceLine Type="DesignPatterns.DecoratorPattern.Decorator" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="4.812" Y="3.733" />
+        <Point X="4.812" Y="4.115" />
+        <Point X="3.375" Y="4.115" />
+        <Point X="3.375" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>DecoratorPattern\ConcreteDecoratorA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.DecoratorPattern.ConcreteDecoratorB">
+    <Position X="5.75" Y="4.5" Width="1.75" />
+    <InheritanceLine Type="DesignPatterns.DecoratorPattern.Decorator" FixedFromPoint="true">
+      <Path>
+        <Point X="5.75" Y="3.733" />
+        <Point X="5.75" Y="4.125" />
+        <Point X="6.625" Y="4.125" />
+        <Point X="6.625" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>DecoratorPattern\ConcreteDecoratorB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
